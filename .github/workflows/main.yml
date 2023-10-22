@@ -52,8 +52,6 @@ jobs:
         cd backend/
         python manage.py test
 
-
-  jobs:
       # Запустить тестирование приложения
     tests:
       runs-on: ubuntu-latest
